@@ -1,2 +1,4 @@
-# web-330
-This is a repository for Enterprise JavaScript II course. 
+# WEB 330 Enterprise JavaScript I
+## Contributors 
+- Dagmawi Megra
+- Richard Krasso
