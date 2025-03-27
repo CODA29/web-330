@@ -38,12 +38,12 @@ document.getElementById("generateHero").addEventListener("click", function(e) {
   let character = createCharacter(heroName, heroGender, heroClass);
   let characterName = character.getName();
   let characterGender = character.getGender();
-  let characterClass = character.getClass(); 
+  let characterClass = character.getClass();
 
   // TODO: Display character information
   let displayHero = document.getElementById("characterOutput");
 
-  displayHero.innerHTML = `<p>${characterName}</p>  <p>${characterGender}</p>  <p>${characterClass}</p>`
+  displayHero.innerHTML = `<p>${characterName}</p>  <p>${characterGender}</p>  <p>${characterClass}</p>`;
 
 });
 
