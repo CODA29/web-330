@@ -35,6 +35,6 @@ document.getElementById("submitButton").onclick = function showData(){
 
   console.log(sessionStorage);
 
-  // Send the user to the project09-02b.html file 
+  // Send the user to the project09-02b.html file
   location.href = "project09-02b.html";
 }
