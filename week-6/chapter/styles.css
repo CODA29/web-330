@@ -193,9 +193,6 @@ aside#news {
    padding: 0 15px 0 10px;
 }
 
-aside#news > article {
-   border-bottom: 
-}
 aside#news h1 {
    font-size: 1.1em;
    font-weight: bold;
@@ -234,7 +231,7 @@ aside#news > article p {
 
 /* Suggestion Box Styles */
 
-div#suggestBox {
+#suggestBox {
    position: absolute;
    top: 38px;
    left: 0px;
@@ -244,14 +241,14 @@ div#suggestBox {
    border: 1px solid rgb(151, 151, 151);
    display: none;
 }
-div#suggestBox > div {
+#suggestBox > div {
    background-color: white;
    color: rgb(91, 91, 91);
    margin: 8px 0 8px 5px;
    cursor: pointer;
 }
 
-div#suggestBox > div:hover {
+#suggestBox > div:hover {
    background-color: rgb(0, 78, 156);
    color: rgb(255, 255, 192);
 }
